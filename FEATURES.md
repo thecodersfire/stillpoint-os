@@ -12,3 +12,13 @@ Install them from this repository:
 
     mkdir -p "$HOME/.local/bin"
     install -m 0755 features/stillpoint-os-workspace features/stillpoint-os-plan features/stillpoint-os-check "$HOME/.local/bin/"
+
+## Preinstalled purpose software
+
+The installer adds these three Flathub applications for mindfulness and reflection:
+
+1. **GNOME Calendar** — org.gnome.Calendar
+2. **Foliate** — com.github.johnfactotum.Foliate
+3. **KeePassXC** — org.keepassxc.KeePassXC
+
+They are installed from Flathub during setup. The repository contains application IDs and documentation, not third-party binaries; each publisher’s terms and licenses apply.
